@@ -23,10 +23,9 @@ This project implements a complete deep learning framework built entirely from s
 
 ```
 .
-├── dispatch.py                 # Exercise file dispatcher utility
-├── requirements.txt            # Python dependencies
-├── test_constraints.py         # Unit tests for constraints
-├── src_to_implement/
+├── requirements.txt                    # Python dependencies
+├── test_constraints.py                 # Unit test runner for constraint validation
+└── src_to_implement/
 │   ├── NeuralNetwork.py       # Core neural network class with forward/backward propagation
 │   ├── NeuralNetworkTests.py  # Network unit tests
 │   ├── TrainLeNet.py          # Training script for LeNet on MNIST
